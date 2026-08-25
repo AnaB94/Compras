@@ -1,0 +1,29 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	discourageImplicitMeasures
+	sourceQueryCulture: es-ES
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Cedis","Clientes","Compras","Inventario"]
+
+annotation PBI_ProTooling = ["CalcGroup","MCP-PBIModeling","DevMode"]
+
+ref table Cedis
+ref table Clientes
+ref table DateTableTemplate_8cf1b45f-3839-4bd0-aa35-e72eecee8b21
+ref table LocalDateTable_148fecf2-896b-4b9e-b3a5-c36a2fdb473d
+ref table LocalDateTable_3c393639-2635-46a7-9f6d-e8ecd6d00a2e
+ref table LocalDateTable_08492c74-dd79-43df-b8b4-2fe6b7fc0dd5
+ref table Compras
+ref table Calendario
+ref table LocalDateTable_588fcc26-1eff-46e3-bb5c-77339e82a397
+ref table Inventario
+ref table 'Calculation group'
+
+ref cultureInfo en-US
+

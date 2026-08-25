@@ -1,0 +1,82 @@
+/// Detalle de inventario por artículo: categoría, costo unitario, costo en almacén y piezas disponibles en almacén.
+table Inventario
+	lineageTag: 0833295e-7d38-40fd-9b72-6c83bf8ef86e
+
+	measure 'TOTAL ALMACEN' =
+			
+			SUM(Inventario[costo en almacen])
+		lineageTag: d85c972a-4651-4a69-a8b2-fad343999b41
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column SKU
+		dataType: string
+		lineageTag: 3564e3b5-6395-4a70-99fa-022e8b4c28fd
+		summarizeBy: none
+		sourceColumn: SKU
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nombre Artículo'
+		dataType: string
+		lineageTag: ce93b3c9-ab24-4b90-8271-9046ce1afabd
+		summarizeBy: none
+		sourceColumn: Nombre Artículo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Categoría
+		dataType: string
+		lineageTag: 734d70b7-9b9b-413b-968d-0d32449bbfb0
+		summarizeBy: none
+		sourceColumn: Categoría
+
+		annotation SummarizationSetBy = Automatic
+
+	column Área
+		dataType: string
+		lineageTag: ba2f4dee-ab62-45db-a590-3def1d62d62c
+		summarizeBy: none
+		sourceColumn: Área
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Costo Unitario'
+		dataType: double
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 37ada74b-2f3e-4890-92d2-d0707ab0b55c
+		summarizeBy: none
+		sourceColumn: Costo Unitario
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Piezas en Almacén'
+		dataType: int64
+		lineageTag: bc6e7df5-11c9-470c-a1f5-a1ee16b4dfec
+		summarizeBy: none
+		sourceColumn: Piezas en Almacén
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'costo en almacen' = Inventario[Costo Unitario]*Inventario[Piezas en Almacén]
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 82e8862d-bba5-4a7a-8ebb-b731cec8e059
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Inventario = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(Web.Contents("https://dataanalitic.sharepoint.com/sites/ClassofPowerBi2/Shared%20Documents/sku.xlsx"), null, true),
+				    Inventario_Sheet = Source{[Item="Inventario",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(Inventario_Sheet, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"SKU", type text}, {"Nombre Artículo", type text}, {"Categoría", type text}, {"Área", type text}, {"Costo Unitario", type number}, {"Piezas en Almacén", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,5589 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "cedi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Cedis"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cedi": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "cedi.id_cedi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Cedis",
+			          "ConceptualProperty": "ID_CEDIS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id cedi": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_CEDIS": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification cedi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity cedi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier cedi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential cedi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "cedi.ubicacion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Cedis",
+			          "ConceptualProperty": "UBICACION"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ubicacion": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "cedi.estatus": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Cedis",
+			          "ConceptualProperty": "ESTATUS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estatus": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "cedi.region": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Cedis",
+			          "ConceptualProperty": "REGION"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "region": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "continent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "cedi.zona": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Cedis",
+			          "ConceptualProperty": "ZONA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "zona": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "cedi.nombre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Cedis",
+			          "ConceptualProperty": "NOMBRE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nombre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "cedi.coord_y": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Cedis",
+			          "ConceptualProperty": "COORD_Y"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "coord y": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "COORD_Y": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "cedi.coord_x": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Cedis",
+			          "ConceptualProperty": "COORD_X"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "coord x": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "COORD_X": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cliente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "cliente.id_cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "ConceptualProperty": "ID_CLIENTE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id cliente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_CLIENTE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "cliente.nombre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "ConceptualProperty": "NOMBRE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nombre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NOMBRE CLIENTE": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "cliente.direccion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "ConceptualProperty": "DIRECCION"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "direccion": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "cliente.estado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "ConceptualProperty": "ESTADO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "cliente.tipo_cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "ConceptualProperty": "TIPO_CLIENTE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo cliente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TIPO_CLIENTE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "cliente.ultima_fecha_compra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "ConceptualProperty": "ULTIMA_FECHA_COMPRA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ultima fecha compra": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ULTIMA_FECHA_COMPRA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cliente.ultima_fecha_compra.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "VariationSource": "ULTIMA_FECHA_COMPRA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ultima fecha compra date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cliente.ultima_fecha_compra.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "VariationSource": "ULTIMA_FECHA_COMPRA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ultima fecha compra year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ultima fecha compra yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cliente.ultima_fecha_compra.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "VariationSource": "ULTIMA_FECHA_COMPRA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ultima fecha compra quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ultima fecha compra qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.857
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cliente.ultima_fecha_compra.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "VariationSource": "ULTIMA_FECHA_COMPRA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ultima fecha compra month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ultima fecha compra mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cliente.ultima_fecha_compra.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "VariationSource": "ULTIMA_FECHA_COMPRA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ultima fecha compra day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cliente.fecha_alta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "ConceptualProperty": "FECHA_ALTA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha alta": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FECHA_ALTA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cliente.fecha_alta.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "VariationSource": "FECHA_ALTA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha alta date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cliente.fecha_alta.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "VariationSource": "FECHA_ALTA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha alta year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha alta yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cliente.fecha_alta.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "VariationSource": "FECHA_ALTA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha alta quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha alta qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cliente.fecha_alta.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "VariationSource": "FECHA_ALTA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha alta month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha alta mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cliente.fecha_alta.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "VariationSource": "FECHA_ALTA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha alta day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cliente.fecha_baja": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "ConceptualProperty": "FECHA_BAJA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha baja": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FECHA_BAJA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cliente.fecha_baja.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "VariationSource": "FECHA_BAJA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha baja date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cliente.fecha_baja.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "VariationSource": "FECHA_BAJA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha baja year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha baja yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cliente.fecha_baja.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "VariationSource": "FECHA_BAJA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha baja quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha baja qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cliente.fecha_baja.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "VariationSource": "FECHA_BAJA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha baja month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha baja mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cliente.fecha_baja.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "VariationSource": "FECHA_BAJA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha baja day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cliente.id_cedi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clientes",
+			          "ConceptualProperty": "ID_CEDIS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id cedi": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_CEDIS": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification cedi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity cedi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier cedi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential cedi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "compra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Compras"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "compra": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "compra.id_compra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Compras",
+			          "ConceptualProperty": "ID_COMPRA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id compra": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_COMPRA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification compra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity compra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier compra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential compra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "compra.id_cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Compras",
+			          "ConceptualProperty": "ID_CLIENTE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id cliente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_CLIENTE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "compra.sku": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Compras",
+			          "ConceptualProperty": "SKU"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "sku": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "compra.fecha_compra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Compras",
+			          "ConceptualProperty": "FECHA_COMPRA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha compra": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FECHA_COMPRA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "compra.id_producto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Compras",
+			          "ConceptualProperty": "ID_PRODUCTO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id producto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_PRODUCTO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification producto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity producto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier producto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential producto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "compra.numero_factura": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Compras",
+			          "ConceptualProperty": "NUMERO_FACTURA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numero factura": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NUMERO_FACTURA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "compra.tipo_compra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Compras",
+			          "ConceptualProperty": "TIPO_COMPRA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo compra": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TIPO_COMPRA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "compra.cedi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Compras",
+			          "ConceptualProperty": "CEDIS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "cedi": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "compra.categoria_sku": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Compras",
+			          "ConceptualProperty": "Categoria sku"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "categoria sku": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "compra.area_sku": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Compras",
+			          "ConceptualProperty": "area sku"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "area sku": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "region sku": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "locale sku": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "locality sku": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "neighbourhood sku": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "district sku": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "continent sku": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "field sku": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "neighborhood sku": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "section sku": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "space sku": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "compra.total_compras": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calculation group",
+			          "ConceptualProperty": "total compras"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total compras": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate compra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall compra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "TOTAL": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "compra.clientes_nuevos_ultimo_mes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calculation group",
+			          "ConceptualProperty": "Clientes_Nuevos_Ultimo_Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "clientes nuevos ultimo mes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Clientes_Nuevos_Ultimo_Mes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "compra.mes_pasado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calculation group",
+			          "ConceptualProperty": "mes pasado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mes pasado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "compra.total_de_clientes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calculation group",
+			          "ConceptualProperty": "total de clientes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total de clientes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate de cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall de cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "compra.monto_compra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calculation group",
+			          "ConceptualProperty": "Monto compra"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "monto compra": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "compra.total_productos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calculation group",
+			          "ConceptualProperty": "total productos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total productos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate producto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall producto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "compra.area_sku_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Compras",
+			          "Hierarchy": "area sku Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "area sku hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sku hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "region sku hierarchy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "locale sku hierarchy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "locality sku hierarchy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "neighbourhood sku hierarchy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "district sku hierarchy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "continent sku hierarchy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "field sku hierarchy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "neighborhood sku hierarchy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "section sku hierarchy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "space sku hierarchy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "compra.area_sku_hierarchy.area_sku": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Compras",
+			          "Hierarchy": "area sku Hierarchy",
+			          "HierarchyLevel": "area sku"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "area sku": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "region sku": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "locale sku": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "locality sku": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "neighbourhood sku": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "district sku": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "continent sku": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "field sku": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "neighborhood sku": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "section sku": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "space sku": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "compra.area_sku_hierarchy.categoria_sku": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Compras",
+			          "Hierarchy": "area sku Hierarchy",
+			          "HierarchyLevel": "Categoria sku"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "categoria sku": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calendario": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendario.date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendario.date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendario.date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendario.date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendario.date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendario.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "semana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "semana": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "inventario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Inventario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "inventario": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "inventario.sku": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Inventario",
+			          "ConceptualProperty": "SKU"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sku": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "inventario.nombre_artículo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Inventario",
+			          "ConceptualProperty": "Nombre Artículo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nombre artículo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "inventario.categoría": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Inventario",
+			          "ConceptualProperty": "Categoría"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "categoría": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "inventario.área": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Inventario",
+			          "ConceptualProperty": "Área"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "área": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "inventario.costo_unitario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Inventario",
+			          "ConceptualProperty": "Costo Unitario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "costo unitario": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "inventario.piezas_en_almacén": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Inventario",
+			          "ConceptualProperty": "Piezas en Almacén"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "piezas en almacén": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pieza en almacén": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "inventario.costo_en_almacen": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Inventario",
+			          "ConceptualProperty": "costo en almacen"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "costo en almacen": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "compra.ranking_clientes_compras": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calculation group",
+			          "ConceptualProperty": "Ranking_Clientes_Compras"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ranking clientes compras": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Ranking_Clientes_Compras": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "RANK": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "compra.ejemplo_look": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Compras",
+			          "ConceptualProperty": "EJEMPLO LOOK"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ejemplo look": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ejemplo appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ejemplo expression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ejemplo aspect": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ejemplo mien": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ejemplo air": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "ejemplo guise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "ejemplo gaze": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "ejemplo stare": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "ejemplo glance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "ejemplo glare": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.mes_numero": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "mes numero"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mes numero": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "me numero": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.samelastyear": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calculation group",
+			          "ConceptualProperty": "samelastyear"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "samelastyear": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "inventario.total_almacen": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Inventario",
+			          "ConceptualProperty": "TOTAL ALMACEN"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total almacen": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate almacen": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall almacen": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "compra.compras_mes_anterior_PreviusMonth": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calculation group",
+			          "ConceptualProperty": "Compras mes anterior PreviusMonth"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "compras mes anterior PreviusMonth": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "calendario_date_date_hierarchy_has_calendario_date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "calendario.date.date_hierarchy"
+			          }
+			        },
+			        "calendario.date.quarter": {
+			          "Target": {
+			            "Entity": "calendario.date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "calendario.date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_quarters"
+			        }
+			      ]
+			    },
+			    "calendario_date_date_hierarchy_has_calendario_date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "calendario.date.date_hierarchy"
+			          }
+			        },
+			        "calendario.date.year": {
+			          "Target": {
+			            "Entity": "calendario.date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "calendario.date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_years"
+			        }
+			      ]
+			    },
+			    "calendario_date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.date": {
+			          "Target": {
+			            "Entity": "calendario.date"
+			          }
+			        },
+			        "calendario.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "calendario.date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.date"
+			            },
+			            "Object": {
+			              "Role": "calendario.date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dates_have_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "compra_area_sku_hierarchy_area_sku_has_compra_area_sku_hierarchy_categoria_sku": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra.area_sku_hierarchy.area_sku": {
+			          "Target": {
+			            "Entity": "compra.area_sku_hierarchy.area_sku"
+			          }
+			        },
+			        "compra.area_sku_hierarchy.categoria_sku": {
+			          "Target": {
+			            "Entity": "compra.area_sku_hierarchy.categoria_sku"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra.area_sku_hierarchy.area_sku"
+			            },
+			            "Object": {
+			              "Role": "compra.area_sku_hierarchy.categoria_sku"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "area_skus_have_categoria_skus"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra.area_sku_hierarchy.categoria_sku"
+			            },
+			            "Object": {
+			              "Role": "compra.area_sku_hierarchy.area_sku"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "categoria_skus_have_area_skus"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "compra.area_sku_hierarchy.categoria_sku"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "compra.area_sku_hierarchy.area_sku"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "categoria_skus_are_in_area_skus"
+			        }
+			      ]
+			    },
+			    "compra_area_sku_hierarchy_has_categoria_sku": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra.area_sku_hierarchy": {
+			          "Target": {
+			            "Entity": "compra.area_sku_hierarchy"
+			          }
+			        },
+			        "compra.area_sku_hierarchy.categoria_sku": {
+			          "Target": {
+			            "Entity": "compra.area_sku_hierarchy.categoria_sku"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra.area_sku_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "compra.area_sku_hierarchy.categoria_sku"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "area_sku_hierarchies_have_categoria_skus"
+			        }
+			      ]
+			    },
+			    "compra_area_sku_hierarchy_has_area_sku": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra.area_sku_hierarchy": {
+			          "Target": {
+			            "Entity": "compra.area_sku_hierarchy"
+			          }
+			        },
+			        "compra.area_sku_hierarchy.area_sku": {
+			          "Target": {
+			            "Entity": "compra.area_sku_hierarchy.area_sku"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra.area_sku_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "compra.area_sku_hierarchy.area_sku"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "area_sku_hierarchies_have_area_skus"
+			        }
+			      ]
+			    },
+			    "cliente_fecha_baja_date_hierarchy_has_cliente_fecha_baja_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente.fecha_baja.date_hierarchy": {
+			          "Target": {
+			            "Entity": "cliente.fecha_baja.date_hierarchy"
+			          }
+			        },
+			        "cliente.fecha_baja.day": {
+			          "Target": {
+			            "Entity": "cliente.fecha_baja.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente.fecha_baja.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "cliente.fecha_baja.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fecha_baja_date_hierarchies_have_fecha_baja_days"
+			        }
+			      ]
+			    },
+			    "cliente_fecha_baja_date_hierarchy_has_cliente_fecha_baja_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente.fecha_baja.date_hierarchy": {
+			          "Target": {
+			            "Entity": "cliente.fecha_baja.date_hierarchy"
+			          }
+			        },
+			        "cliente.fecha_baja.month": {
+			          "Target": {
+			            "Entity": "cliente.fecha_baja.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente.fecha_baja.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "cliente.fecha_baja.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fecha_baja_date_hierarchies_have_fecha_baja_months"
+			        }
+			      ]
+			    },
+			    "cliente_fecha_baja_date_hierarchy_has_cliente_fecha_baja_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente.fecha_baja.date_hierarchy": {
+			          "Target": {
+			            "Entity": "cliente.fecha_baja.date_hierarchy"
+			          }
+			        },
+			        "cliente.fecha_baja.quarter": {
+			          "Target": {
+			            "Entity": "cliente.fecha_baja.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente.fecha_baja.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "cliente.fecha_baja.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fecha_baja_date_hierarchies_have_fecha_baja_quarters"
+			        }
+			      ]
+			    },
+			    "cliente_fecha_baja_date_hierarchy_has_cliente_fecha_baja_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente.fecha_baja.date_hierarchy": {
+			          "Target": {
+			            "Entity": "cliente.fecha_baja.date_hierarchy"
+			          }
+			        },
+			        "cliente.fecha_baja.year": {
+			          "Target": {
+			            "Entity": "cliente.fecha_baja.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente.fecha_baja.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "cliente.fecha_baja.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fecha_baja_date_hierarchies_have_fecha_baja_years"
+			        }
+			      ]
+			    },
+			    "cliente_fecha_baja_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente.fecha_baja": {
+			          "Target": {
+			            "Entity": "cliente.fecha_baja"
+			          }
+			        },
+			        "cliente.fecha_baja.date_hierarchy": {
+			          "Target": {
+			            "Entity": "cliente.fecha_baja.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente.fecha_baja"
+			            },
+			            "Object": {
+			              "Role": "cliente.fecha_baja.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fecha_baja_have_fecha_baja_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "cliente_fecha_alta_date_hierarchy_has_cliente_fecha_alta_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente.fecha_alta.date_hierarchy": {
+			          "Target": {
+			            "Entity": "cliente.fecha_alta.date_hierarchy"
+			          }
+			        },
+			        "cliente.fecha_alta.day": {
+			          "Target": {
+			            "Entity": "cliente.fecha_alta.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente.fecha_alta.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "cliente.fecha_alta.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fecha_alta_date_hierarchies_have_fecha_alta_days"
+			        }
+			      ]
+			    },
+			    "cliente_fecha_alta_date_hierarchy_has_cliente_fecha_alta_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente.fecha_alta.date_hierarchy": {
+			          "Target": {
+			            "Entity": "cliente.fecha_alta.date_hierarchy"
+			          }
+			        },
+			        "cliente.fecha_alta.month": {
+			          "Target": {
+			            "Entity": "cliente.fecha_alta.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente.fecha_alta.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "cliente.fecha_alta.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fecha_alta_date_hierarchies_have_fecha_alta_months"
+			        }
+			      ]
+			    },
+			    "cliente_fecha_alta_date_hierarchy_has_cliente_fecha_alta_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente.fecha_alta.date_hierarchy": {
+			          "Target": {
+			            "Entity": "cliente.fecha_alta.date_hierarchy"
+			          }
+			        },
+			        "cliente.fecha_alta.quarter": {
+			          "Target": {
+			            "Entity": "cliente.fecha_alta.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente.fecha_alta.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "cliente.fecha_alta.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fecha_alta_date_hierarchies_have_fecha_alta_quarters"
+			        }
+			      ]
+			    },
+			    "cliente_fecha_alta_date_hierarchy_has_cliente_fecha_alta_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente.fecha_alta.date_hierarchy": {
+			          "Target": {
+			            "Entity": "cliente.fecha_alta.date_hierarchy"
+			          }
+			        },
+			        "cliente.fecha_alta.year": {
+			          "Target": {
+			            "Entity": "cliente.fecha_alta.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente.fecha_alta.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "cliente.fecha_alta.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fecha_alta_date_hierarchies_have_fecha_alta_years"
+			        }
+			      ]
+			    },
+			    "cliente_fecha_alta_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente.fecha_alta": {
+			          "Target": {
+			            "Entity": "cliente.fecha_alta"
+			          }
+			        },
+			        "cliente.fecha_alta.date_hierarchy": {
+			          "Target": {
+			            "Entity": "cliente.fecha_alta.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente.fecha_alta"
+			            },
+			            "Object": {
+			              "Role": "cliente.fecha_alta.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fecha_alta_have_fecha_alta_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "cliente_ultima_fecha_compra_date_hierarchy_has_cliente_ultima_fecha_compra_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente.ultima_fecha_compra.date_hierarchy": {
+			          "Target": {
+			            "Entity": "cliente.ultima_fecha_compra.date_hierarchy"
+			          }
+			        },
+			        "cliente.ultima_fecha_compra.day": {
+			          "Target": {
+			            "Entity": "cliente.ultima_fecha_compra.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente.ultima_fecha_compra.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "cliente.ultima_fecha_compra.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ultima_fecha_compra_date_hierarchies_have_ultima_fecha_compra_days"
+			        }
+			      ]
+			    },
+			    "cliente_ultima_fecha_compra_date_hierarchy_has_cliente_ultima_fecha_compra_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente.ultima_fecha_compra.date_hierarchy": {
+			          "Target": {
+			            "Entity": "cliente.ultima_fecha_compra.date_hierarchy"
+			          }
+			        },
+			        "cliente.ultima_fecha_compra.month": {
+			          "Target": {
+			            "Entity": "cliente.ultima_fecha_compra.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente.ultima_fecha_compra.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "cliente.ultima_fecha_compra.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ultima_fecha_compra_date_hierarchies_have_ultima_fecha_compra_months"
+			        }
+			      ]
+			    },
+			    "cliente_ultima_fecha_compra_date_hierarchy_has_cliente_ultima_fecha_compra_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente.ultima_fecha_compra.date_hierarchy": {
+			          "Target": {
+			            "Entity": "cliente.ultima_fecha_compra.date_hierarchy"
+			          }
+			        },
+			        "cliente.ultima_fecha_compra.quarter": {
+			          "Target": {
+			            "Entity": "cliente.ultima_fecha_compra.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente.ultima_fecha_compra.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "cliente.ultima_fecha_compra.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ultima_fecha_compra_date_hierarchies_have_ultima_fecha_compra_quarters"
+			        }
+			      ]
+			    },
+			    "cliente_ultima_fecha_compra_date_hierarchy_has_cliente_ultima_fecha_compra_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente.ultima_fecha_compra.date_hierarchy": {
+			          "Target": {
+			            "Entity": "cliente.ultima_fecha_compra.date_hierarchy"
+			          }
+			        },
+			        "cliente.ultima_fecha_compra.year": {
+			          "Target": {
+			            "Entity": "cliente.ultima_fecha_compra.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente.ultima_fecha_compra.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "cliente.ultima_fecha_compra.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ultima_fecha_compra_date_hierarchies_have_ultima_fecha_compra_years"
+			        }
+			      ]
+			    },
+			    "cliente_ultima_fecha_compra_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente.ultima_fecha_compra": {
+			          "Target": {
+			            "Entity": "cliente.ultima_fecha_compra"
+			          }
+			        },
+			        "cliente.ultima_fecha_compra.date_hierarchy": {
+			          "Target": {
+			            "Entity": "cliente.ultima_fecha_compra.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente.ultima_fecha_compra"
+			            },
+			            "Object": {
+			              "Role": "cliente.ultima_fecha_compra.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ultima_fecha_compras_have_ultima_fecha_compra_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "compra_has_inventario": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "inventario": {
+			          "Target": {
+			            "Entity": "inventario"
+			          },
+			          "Nouns": [
+			            {
+			              "sku": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "inventario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_inventarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "inventario"
+			            },
+			            "Object": {
+			              "Role": "compra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "inventarios_have_compras"
+			        }
+			      ]
+			    },
+			    "compra_has_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "compra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_compras"
+			        }
+			      ]
+			    },
+			    "compra_has_cedi": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "cedi": {
+			          "Target": {
+			            "Entity": "cedi"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "cedi"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_cedi"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cedi"
+			            },
+			            "Object": {
+			              "Role": "compra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cedi_have_compras"
+			        }
+			      ]
+			    },
+			    "compra_has_cliente": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "cliente": {
+			          "Target": {
+			            "Entity": "cliente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "cliente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_clientes"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente"
+			            },
+			            "Object": {
+			              "Role": "compra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "clientes_have_compras"
+			        }
+			      ]
+			    },
+			    "compra_has_compras_mes_anterior_PreviusMonth": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "compra.compras_mes_anterior_PreviusMonth": {
+			          "Target": {
+			            "Entity": "compra.compras_mes_anterior_PreviusMonth"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "compra.compras_mes_anterior_PreviusMonth"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_compras_mes_anterior_PreviusMonth"
+			        }
+			      ]
+			    },
+			    "inventario_has_total_almacen": {
+			      "Binding": {
+			        "ConceptualEntity": "Inventario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "inventario": {
+			          "Target": {
+			            "Entity": "inventario"
+			          }
+			        },
+			        "inventario.total_almacen": {
+			          "Target": {
+			            "Entity": "inventario.total_almacen"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "inventario"
+			            },
+			            "Object": {
+			              "Role": "inventario.total_almacen"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "inventarios_have_total_almacen"
+			        }
+			      ]
+			    },
+			    "compra_has_calendario_samelastyear": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "calendario.samelastyear": {
+			          "Target": {
+			            "Entity": "calendario.samelastyear"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "calendario.samelastyear"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_samelastyear"
+			        }
+			      ]
+			    },
+			    "calendario_has_mes_numero": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.mes_numero": {
+			          "Target": {
+			            "Entity": "calendario.mes_numero"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.mes_numero"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_mes_numeros"
+			        }
+			      ]
+			    },
+			    "compra_has_ejemplo_look": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "compra.ejemplo_look": {
+			          "Target": {
+			            "Entity": "compra.ejemplo_look"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "compra.ejemplo_look"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_ejemplo_looks"
+			        }
+			      ]
+			    },
+			    "compra_has_ranking_clientes_compras": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "compra.ranking_clientes_compras": {
+			          "Target": {
+			            "Entity": "compra.ranking_clientes_compras"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "compra.ranking_clientes_compras"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_ranking_clientes_compras"
+			        }
+			      ]
+			    },
+			    "inventario_has_costo_en_almacen": {
+			      "Binding": {
+			        "ConceptualEntity": "Inventario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "inventario": {
+			          "Target": {
+			            "Entity": "inventario"
+			          }
+			        },
+			        "inventario.costo_en_almacen": {
+			          "Target": {
+			            "Entity": "inventario.costo_en_almacen"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "inventario"
+			            },
+			            "Object": {
+			              "Role": "inventario.costo_en_almacen"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "inventarios_have_costo_en_almacens"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "inventario"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "inventario.costo_en_almacen"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "costo_en_almacen_indicates_how_expensive_inventarios_are"
+			        }
+			      ]
+			    },
+			    "inventario_has_piezas_en_almacén": {
+			      "Binding": {
+			        "ConceptualEntity": "Inventario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "inventario": {
+			          "Target": {
+			            "Entity": "inventario"
+			          }
+			        },
+			        "inventario.piezas_en_almacén": {
+			          "Target": {
+			            "Entity": "inventario.piezas_en_almacén"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "inventario"
+			            },
+			            "Object": {
+			              "Role": "inventario.piezas_en_almacén"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "inventarios_have_piezas_en_almacéns"
+			        }
+			      ]
+			    },
+			    "inventario_has_costo_unitario": {
+			      "Binding": {
+			        "ConceptualEntity": "Inventario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "inventario": {
+			          "Target": {
+			            "Entity": "inventario"
+			          }
+			        },
+			        "inventario.costo_unitario": {
+			          "Target": {
+			            "Entity": "inventario.costo_unitario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "inventario"
+			            },
+			            "Object": {
+			              "Role": "inventario.costo_unitario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "inventarios_have_costo_unitarios"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "inventario"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "inventario.costo_unitario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "costo_unitario_indicates_how_expensive_inventarios_are"
+			        }
+			      ]
+			    },
+			    "inventario_has_área": {
+			      "Binding": {
+			        "ConceptualEntity": "Inventario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "inventario": {
+			          "Target": {
+			            "Entity": "inventario"
+			          }
+			        },
+			        "inventario.área": {
+			          "Target": {
+			            "Entity": "inventario.área"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "inventario"
+			            },
+			            "Object": {
+			              "Role": "inventario.área"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "inventarios_have_áreas"
+			        }
+			      ]
+			    },
+			    "inventario_has_categoría": {
+			      "Binding": {
+			        "ConceptualEntity": "Inventario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "inventario": {
+			          "Target": {
+			            "Entity": "inventario"
+			          }
+			        },
+			        "inventario.categoría": {
+			          "Target": {
+			            "Entity": "inventario.categoría"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "inventario"
+			            },
+			            "Object": {
+			              "Role": "inventario.categoría"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "inventarios_have_categorías"
+			        }
+			      ]
+			    },
+			    "inventario_has_nombre_artículo": {
+			      "Binding": {
+			        "ConceptualEntity": "Inventario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "inventario": {
+			          "Target": {
+			            "Entity": "inventario"
+			          }
+			        },
+			        "inventario.nombre_artículo": {
+			          "Target": {
+			            "Entity": "inventario.nombre_artículo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "inventario"
+			            },
+			            "Object": {
+			              "Role": "inventario.nombre_artículo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "inventarios_have_nombre_artículos"
+			        }
+			      ]
+			    },
+			    "inventario_has_sku": {
+			      "Binding": {
+			        "ConceptualEntity": "Inventario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "inventario": {
+			          "Target": {
+			            "Entity": "inventario"
+			          }
+			        },
+			        "inventario.sku": {
+			          "Target": {
+			            "Entity": "inventario.sku"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "inventario"
+			            },
+			            "Object": {
+			              "Role": "inventario.sku"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "inventarios_have_skus"
+			        }
+			      ]
+			    },
+			    "calendario_has_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.semana": {
+			          "Target": {
+			            "Entity": "calendario.semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_semanas"
+			        }
+			      ]
+			    },
+			    "calendario_has_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.me": {
+			          "Target": {
+			            "Entity": "calendario.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_me"
+			        }
+			      ]
+			    },
+			    "calendario_has_año": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.año": {
+			          "Target": {
+			            "Entity": "calendario.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_años"
+			        }
+			      ]
+			    },
+			    "calendario_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.date": {
+			          "Target": {
+			            "Entity": "calendario.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_dates"
+			        }
+			      ]
+			    },
+			    "compra_has_area_sku_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "compra.area_sku_hierarchy": {
+			          "Target": {
+			            "Entity": "compra.area_sku_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "compra.area_sku_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_area_sku_hierarchies"
+			        }
+			      ]
+			    },
+			    "compra_has_total_productos": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "compra.total_productos": {
+			          "Target": {
+			            "Entity": "compra.total_productos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "compra.total_productos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_total_productos"
+			        }
+			      ]
+			    },
+			    "compra_has_monto_compra": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "compra.monto_compra": {
+			          "Target": {
+			            "Entity": "compra.monto_compra"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "compra.monto_compra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_monto_compra"
+			        }
+			      ]
+			    },
+			    "compra_has_total_de_clientes": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "compra.total_de_clientes": {
+			          "Target": {
+			            "Entity": "compra.total_de_clientes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "compra.total_de_clientes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_total_de_clientes"
+			        }
+			      ]
+			    },
+			    "compra_has_mes_pasado": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "compra.mes_pasado": {
+			          "Target": {
+			            "Entity": "compra.mes_pasado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "compra.mes_pasado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_mes_pasado"
+			        }
+			      ]
+			    },
+			    "compra_has_clientes_nuevos_ultimo_mes": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "compra.clientes_nuevos_ultimo_mes": {
+			          "Target": {
+			            "Entity": "compra.clientes_nuevos_ultimo_mes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "compra.clientes_nuevos_ultimo_mes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_clientes_nuevos_ultimo_mes"
+			        }
+			      ]
+			    },
+			    "compra_has_total_compras": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "compra.total_compras": {
+			          "Target": {
+			            "Entity": "compra.total_compras"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "compra.total_compras"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_total_compras"
+			        }
+			      ]
+			    },
+			    "compra_has_area_sku": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "compra.area_sku": {
+			          "Target": {
+			            "Entity": "compra.area_sku"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "compra.area_sku"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_area_skus"
+			        }
+			      ]
+			    },
+			    "compra_has_categoria_sku": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "compra.categoria_sku": {
+			          "Target": {
+			            "Entity": "compra.categoria_sku"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "compra.categoria_sku"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_categoria_skus"
+			        }
+			      ]
+			    },
+			    "compra_has_tipo_compra": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "compra.tipo_compra": {
+			          "Target": {
+			            "Entity": "compra.tipo_compra"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "compra.tipo_compra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_tipo_compras"
+			        }
+			      ]
+			    },
+			    "compra_has_numero_factura": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "compra.numero_factura": {
+			          "Target": {
+			            "Entity": "compra.numero_factura"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "compra.numero_factura"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_numero_facturas"
+			        }
+			      ]
+			    },
+			    "compra_has_id_producto": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "compra.id_producto": {
+			          "Target": {
+			            "Entity": "compra.id_producto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "compra.id_producto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_id_productos"
+			        }
+			      ]
+			    },
+			    "compra_has_fecha_compra": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "compra.fecha_compra": {
+			          "Target": {
+			            "Entity": "compra.fecha_compra"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "compra.fecha_compra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_fecha_compras"
+			        }
+			      ]
+			    },
+			    "compra_has_id_compra": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "compra.id_compra": {
+			          "Target": {
+			            "Entity": "compra.id_compra"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Object": {
+			              "Role": "compra.id_compra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_have_id_compras"
+			        }
+			      ]
+			    },
+			    "cliente_has_id_cedi": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente": {
+			          "Target": {
+			            "Entity": "cliente"
+			          }
+			        },
+			        "cliente.id_cedi": {
+			          "Target": {
+			            "Entity": "cliente.id_cedi"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente"
+			            },
+			            "Object": {
+			              "Role": "cliente.id_cedi"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "clientes_have_id_cedi"
+			        }
+			      ]
+			    },
+			    "cliente_has_fecha_baja": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente": {
+			          "Target": {
+			            "Entity": "cliente"
+			          }
+			        },
+			        "cliente.fecha_baja": {
+			          "Target": {
+			            "Entity": "cliente.fecha_baja"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente"
+			            },
+			            "Object": {
+			              "Role": "cliente.fecha_baja"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "clientes_have_fecha_baja"
+			        }
+			      ]
+			    },
+			    "cliente_has_fecha_alta": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente": {
+			          "Target": {
+			            "Entity": "cliente"
+			          }
+			        },
+			        "cliente.fecha_alta": {
+			          "Target": {
+			            "Entity": "cliente.fecha_alta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente"
+			            },
+			            "Object": {
+			              "Role": "cliente.fecha_alta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "clientes_have_fecha_alta"
+			        }
+			      ]
+			    },
+			    "cliente_has_ultima_fecha_compra": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente": {
+			          "Target": {
+			            "Entity": "cliente"
+			          }
+			        },
+			        "cliente.ultima_fecha_compra": {
+			          "Target": {
+			            "Entity": "cliente.ultima_fecha_compra"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente"
+			            },
+			            "Object": {
+			              "Role": "cliente.ultima_fecha_compra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "clientes_have_ultima_fecha_compras"
+			        }
+			      ]
+			    },
+			    "cliente_has_tipo_cliente": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente": {
+			          "Target": {
+			            "Entity": "cliente"
+			          }
+			        },
+			        "cliente.tipo_cliente": {
+			          "Target": {
+			            "Entity": "cliente.tipo_cliente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente"
+			            },
+			            "Object": {
+			              "Role": "cliente.tipo_cliente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "clientes_have_tipo_clientes"
+			        }
+			      ]
+			    },
+			    "cliente_has_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente": {
+			          "Target": {
+			            "Entity": "cliente"
+			          }
+			        },
+			        "cliente.estado": {
+			          "Target": {
+			            "Entity": "cliente.estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente"
+			            },
+			            "Object": {
+			              "Role": "cliente.estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "clientes_have_estado"
+			        }
+			      ]
+			    },
+			    "cliente_has_direccion": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente": {
+			          "Target": {
+			            "Entity": "cliente"
+			          }
+			        },
+			        "cliente.direccion": {
+			          "Target": {
+			            "Entity": "cliente.direccion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente"
+			            },
+			            "Object": {
+			              "Role": "cliente.direccion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "clientes_have_direccions"
+			        }
+			      ]
+			    },
+			    "cliente_has_nombre": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente": {
+			          "Target": {
+			            "Entity": "cliente"
+			          }
+			        },
+			        "cliente.nombre": {
+			          "Target": {
+			            "Entity": "cliente.nombre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente"
+			            },
+			            "Object": {
+			              "Role": "cliente.nombre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "clientes_have_nombres"
+			        }
+			      ]
+			    },
+			    "cliente_has_id_cliente": {
+			      "Binding": {
+			        "ConceptualEntity": "Clientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente": {
+			          "Target": {
+			            "Entity": "cliente"
+			          }
+			        },
+			        "cliente.id_cliente": {
+			          "Target": {
+			            "Entity": "cliente.id_cliente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente"
+			            },
+			            "Object": {
+			              "Role": "cliente.id_cliente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "clientes_have_id_clientes"
+			        }
+			      ]
+			    },
+			    "cedi_has_coord_x": {
+			      "Binding": {
+			        "ConceptualEntity": "Cedis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cedi": {
+			          "Target": {
+			            "Entity": "cedi"
+			          }
+			        },
+			        "cedi.coord_x": {
+			          "Target": {
+			            "Entity": "cedi.coord_x"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cedi"
+			            },
+			            "Object": {
+			              "Role": "cedi.coord_x"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cedi_have_coord_x"
+			        }
+			      ]
+			    },
+			    "cedi_has_coord_y": {
+			      "Binding": {
+			        "ConceptualEntity": "Cedis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cedi": {
+			          "Target": {
+			            "Entity": "cedi"
+			          }
+			        },
+			        "cedi.coord_y": {
+			          "Target": {
+			            "Entity": "cedi.coord_y"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cedi"
+			            },
+			            "Object": {
+			              "Role": "cedi.coord_y"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cedi_have_coord_y"
+			        }
+			      ]
+			    },
+			    "cedi_has_nombre": {
+			      "Binding": {
+			        "ConceptualEntity": "Cedis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cedi": {
+			          "Target": {
+			            "Entity": "cedi"
+			          }
+			        },
+			        "cedi.nombre": {
+			          "Target": {
+			            "Entity": "cedi.nombre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cedi"
+			            },
+			            "Object": {
+			              "Role": "cedi.nombre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cedi_have_nombres"
+			        }
+			      ]
+			    },
+			    "cedi_has_zona": {
+			      "Binding": {
+			        "ConceptualEntity": "Cedis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cedi": {
+			          "Target": {
+			            "Entity": "cedi"
+			          }
+			        },
+			        "cedi.zona": {
+			          "Target": {
+			            "Entity": "cedi.zona"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cedi"
+			            },
+			            "Object": {
+			              "Role": "cedi.zona"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cedi_have_zonas"
+			        }
+			      ]
+			    },
+			    "cedi_has_region": {
+			      "Binding": {
+			        "ConceptualEntity": "Cedis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cedi": {
+			          "Target": {
+			            "Entity": "cedi"
+			          }
+			        },
+			        "cedi.region": {
+			          "Target": {
+			            "Entity": "cedi.region"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cedi"
+			            },
+			            "Object": {
+			              "Role": "cedi.region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cedi_have_regions"
+			        }
+			      ]
+			    },
+			    "cedi_has_estatus": {
+			      "Binding": {
+			        "ConceptualEntity": "Cedis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cedi": {
+			          "Target": {
+			            "Entity": "cedi"
+			          }
+			        },
+			        "cedi.estatus": {
+			          "Target": {
+			            "Entity": "cedi.estatus"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cedi"
+			            },
+			            "Object": {
+			              "Role": "cedi.estatus"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cedi_have_estatuses"
+			        }
+			      ]
+			    },
+			    "cedi_has_ubicacion": {
+			      "Binding": {
+			        "ConceptualEntity": "Cedis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cedi": {
+			          "Target": {
+			            "Entity": "cedi"
+			          }
+			        },
+			        "cedi.ubicacion": {
+			          "Target": {
+			            "Entity": "cedi.ubicacion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cedi"
+			            },
+			            "Object": {
+			              "Role": "cedi.ubicacion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cedi_have_ubicacions"
+			        }
+			      ]
+			    },
+			    "cedi_has_id_cedi": {
+			      "Binding": {
+			        "ConceptualEntity": "Cedis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cedi": {
+			          "Target": {
+			            "Entity": "cedi"
+			          }
+			        },
+			        "cedi.id_cedi": {
+			          "Target": {
+			            "Entity": "cedi.id_cedi"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cedi"
+			            },
+			            "Object": {
+			              "Role": "cedi.id_cedi"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cedi_have_id_cedi"
+			        }
+			      ]
+			    },
+			    "compra_in_area_sku_hierarchy_area_sku": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "compra.area_sku_hierarchy.area_sku": {
+			          "Target": {
+			            "Entity": "compra.area_sku_hierarchy.area_sku"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "compra.area_sku_hierarchy.area_sku"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "compra.area_sku_hierarchy.area_sku"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_are_in_area_skus"
+			        }
+			      ]
+			    },
+			    "compra_in_area_sku_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "compra.area_sku_hierarchy": {
+			          "Target": {
+			            "Entity": "compra.area_sku_hierarchy"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "compra.area_sku_hierarchy"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "compra.area_sku_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_are_in_area_sku_hierarchies"
+			        }
+			      ]
+			    },
+			    "compra_in_area_sku": {
+			      "Binding": {
+			        "ConceptualEntity": "Compras"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "compra": {
+			          "Target": {
+			            "Entity": "compra"
+			          }
+			        },
+			        "compra.area_sku": {
+			          "Target": {
+			            "Entity": "compra.area_sku"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "compra.area_sku"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "compra"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "compra.area_sku"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "compras_are_in_area_skus1"
+			        }
+			      ]
+			    },
+			    "cedi_in_region": {
+			      "Binding": {
+			        "ConceptualEntity": "Cedis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cedi": {
+			          "Target": {
+			            "Entity": "cedi"
+			          }
+			        },
+			        "cedi.region": {
+			          "Target": {
+			            "Entity": "cedi.region"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "cedi.region"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "cedi"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "cedi.region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cedi_are_in_regions"
+			        }
+			      ]
+			    },
+			    "calendario_date_date_hierarchy_has_calendario_date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "calendario.date.date_hierarchy"
+			          }
+			        },
+			        "calendario.date.month": {
+			          "Target": {
+			            "Entity": "calendario.date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "calendario.date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_months"
+			        }
+			      ]
+			    },
+			    "calendario_date_date_hierarchy_has_calendario_date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "calendario.date.date_hierarchy"
+			          }
+			        },
+			        "calendario.date.day": {
+			          "Target": {
+			            "Entity": "calendario.date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "calendario.date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_days"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

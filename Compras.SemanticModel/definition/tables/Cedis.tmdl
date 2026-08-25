@@ -1,0 +1,86 @@
+/// Catálogo de Centros de Distribución (CEDIS): incluye coordenadas geográficas, región, zona y ubicación de cada centro.
+table Cedis
+	lineageTag: 65ab61a9-1195-4d3d-8603-8fe895b7c528
+
+	column ID_CEDIS
+		dataType: string
+		lineageTag: fd729fe1-aa83-478e-93b1-2ea18aaa3dbe
+		summarizeBy: none
+		sourceColumn: ID_CEDIS
+
+		annotation SummarizationSetBy = Automatic
+
+	column UBICACION
+		dataType: string
+		lineageTag: 669b9776-c86c-4f92-af09-37bb796c07cc
+		summarizeBy: none
+		sourceColumn: UBICACION
+
+		annotation SummarizationSetBy = Automatic
+
+	column ESTATUS
+		dataType: string
+		lineageTag: dcc60698-569a-48de-ab77-b943274da03a
+		summarizeBy: none
+		sourceColumn: ESTATUS
+
+		annotation SummarizationSetBy = Automatic
+
+	column REGION
+		dataType: string
+		lineageTag: d57eedc4-c33e-4d89-817c-300f9a07296d
+		summarizeBy: none
+		sourceColumn: REGION
+
+		annotation SummarizationSetBy = Automatic
+
+	column ZONA
+		dataType: string
+		lineageTag: 975a6243-463d-4c47-83be-3c79c01b0952
+		summarizeBy: none
+		sourceColumn: ZONA
+
+		annotation SummarizationSetBy = Automatic
+
+	column NOMBRE
+		dataType: string
+		lineageTag: 9f4585c1-28dc-4612-818c-d03eb82efcbf
+		summarizeBy: none
+		sourceColumn: NOMBRE
+
+		annotation SummarizationSetBy = Automatic
+
+	column COORD_Y
+		dataType: double
+		lineageTag: 2c736057-9b10-40e9-b26c-3f6ed8b7ca03
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: COORD_Y
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column COORD_X
+		dataType: double
+		lineageTag: ce0b9128-3a98-4a1e-a285-13d27474cd9a
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: COORD_X
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition Cedis = m
+		mode: import
+		source =
+				let
+				    Source = Oracle.Database("localhost:1521/XEPDB1", [HierarchicalNavigation=true, Query="SELECT * FROM BI_PRIMERO.cedis #(lf)"])
+				in
+				    Source
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

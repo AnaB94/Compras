@@ -1,0 +1,189 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "80cdd87242754b5823bd",
+  "position": {
+    "x": 400,
+    "y": 176,
+    "z": 4000,
+    "height": 240,
+    "width": 464,
+    "tabOrder": 4000
+  },
+  "visual": {
+    "visualType": "treemap",
+    "query": {
+      "queryState": {
+        "Group": {
+          "projections": [
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Compras"
+                        }
+                      },
+                      "Hierarchy": "area sku Hierarchy"
+                    }
+                  },
+                  "Level": "area sku"
+                }
+              },
+              "queryRef": "Compras.area sku Hierarchy.area sku",
+              "nativeQueryRef": "area sku Hierarchy area sku",
+              "active": true
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Compras"
+                        }
+                      },
+                      "Hierarchy": "area sku Hierarchy"
+                    }
+                  },
+                  "Level": "Categoria sku"
+                }
+              },
+              "queryRef": "Compras.area sku Hierarchy.Categoria sku",
+              "nativeQueryRef": "area sku Hierarchy Categoria sku",
+              "active": false
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Clientes"
+                    }
+                  },
+                  "Property": "TIPO_CLIENTE"
+                }
+              },
+              "queryRef": "Clientes.TIPO_CLIENTE",
+              "nativeQueryRef": "TIPO_CLIENTE",
+              "active": false
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calculation group"
+                    }
+                  },
+                  "Property": "total productos"
+                }
+              },
+              "queryRef": "Calculation group.total productos",
+              "nativeQueryRef": "total productos"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "HierarchyLevel": {
+                "Expression": {
+                  "Hierarchy": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "Compras"
+                      }
+                    },
+                    "Hierarchy": "area sku Hierarchy"
+                  }
+                },
+                "Level": "area sku"
+              }
+            },
+            "direction": "Ascending"
+          },
+          {
+            "field": {
+              "HierarchyLevel": {
+                "Expression": {
+                  "Hierarchy": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "Compras"
+                      }
+                    },
+                    "Hierarchy": "area sku Hierarchy"
+                  }
+                },
+                "Level": "Categoria sku"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "labels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Totoal de compras realizadas por Tipo de Cliente '"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Arial'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

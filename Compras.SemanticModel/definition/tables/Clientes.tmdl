@@ -1,0 +1,115 @@
+/// Catálogo de clientes con sus atributos (nombre, identificadores y datos demográficos/comerciales) utilizados para el análisis de compras.
+table Clientes
+	lineageTag: c1df8377-d256-4d37-afc7-a298c0e3756a
+
+	column ID_CLIENTE
+		dataType: int64
+		lineageTag: c832b10f-7dad-4f11-ad85-a426e06a9b54
+		summarizeBy: none
+		sourceColumn: ID_CLIENTE
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column NOMBRE
+		dataType: string
+		lineageTag: 9f3c9211-f6ca-44f9-952e-bde8912c59e3
+		summarizeBy: none
+		sourceColumn: NOMBRE
+
+		annotation SummarizationSetBy = Automatic
+
+	column DIRECCION
+		dataType: string
+		lineageTag: ac0625ea-f196-4f23-a424-f71747886073
+		summarizeBy: none
+		sourceColumn: DIRECCION
+
+		annotation SummarizationSetBy = Automatic
+
+	column ESTADO
+		dataType: string
+		lineageTag: e7943a94-d5a8-43d4-87ab-a7d4c1d375fc
+		summarizeBy: none
+		sourceColumn: ESTADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPO_CLIENTE
+		dataType: string
+		lineageTag: b61dbfc2-8a89-42ed-a1d7-920539382877
+		summarizeBy: none
+		sourceColumn: TIPO_CLIENTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column ULTIMA_FECHA_COMPRA
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 2db8a810-fe9f-4d60-b686-e05539613cf7
+		summarizeBy: none
+		sourceColumn: ULTIMA_FECHA_COMPRA
+
+		variation Variation
+			isDefault
+			relationship: 37637cab-b8c3-4f3e-a5d0-935af4bf6df2
+			defaultHierarchy: LocalDateTable_148fecf2-896b-4b9e-b3a5-c36a2fdb473d.'Date Hierarchy'
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column FECHA_ALTA
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: ec8772e7-258f-43f7-8287-c367199454c0
+		summarizeBy: none
+		sourceColumn: FECHA_ALTA
+
+		variation Variation
+			isDefault
+			relationship: 5acadce8-505b-4e96-9e44-1acc44df36a3
+			defaultHierarchy: LocalDateTable_3c393639-2635-46a7-9f6d-e8ecd6d00a2e.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column FECHA_BAJA
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: a4d3cee2-1ccf-4a63-8327-1ed16abdbdc4
+		summarizeBy: none
+		sourceColumn: FECHA_BAJA
+
+		variation Variation
+			isDefault
+			relationship: 77c82507-82c1-49e7-835d-c3698bbcdf0a
+			defaultHierarchy: LocalDateTable_08492c74-dd79-43df-b8b4-2fe6b7fc0dd5.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_CEDIS
+		dataType: string
+		lineageTag: 8c4e568a-f7d7-46da-a093-08c2a41a3728
+		summarizeBy: none
+		sourceColumn: ID_CEDIS
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Clientes = m
+		mode: import
+		source =
+				let
+				    Source = Oracle.Database("localhost:1521/XEPDB1", [HierarchicalNavigation=true, Query="select * from BI_PRIMERO.clientes"]),
+				    #"Renamed Columns" = Table.RenameColumns(Source,{{"CEDIS", "ID_CEDIS"}})
+				in
+				    #"Renamed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

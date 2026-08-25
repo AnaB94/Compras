@@ -1,0 +1,108 @@
+/// Grupo de cálculo (Calculation Group) que contiene las medidas DAX principales del modelo: totales, comparativos de periodo (mes/año anterior) y rankings.
+table 'Calculation group'
+	lineageTag: 9e3091b2-226c-454b-a8f0-cae8ffed253c
+
+	calculationGroup
+
+		calculationItem 'Calculation item' = SELECTEDMEASURE()
+
+	/// Calcula el total de compras del mismo período del año anterior, usando SAMEPERIODLASTYEAR sobre la tabla Calendario.
+	measure samelastyear = ```
+			
+			CALCULATE(
+			    [total compras],
+			    SAMEPERIODLASTYEAR('Calendario'[Date])
+			)
+			
+			```
+		formatString: 0
+		lineageTag: f72f09b2-9d48-4151-a191-b356dddb733a
+
+	/// Devuelve la fecha máxima de compra registrada (última fecha de compra disponible en el contexto actual).
+	measure Clientes_Nuevos_Ultimo_Mes =
+			
+			MAX(Compras[FECHA_COMPRA])
+		formatString: Short Date
+		lineageTag: 268acd02-b502-481f-9ccd-29de1a7c5fc3
+
+	/// Calcula el total de compras correspondiente al mes anterior, usando DATEADD sobre la tabla Calendario.
+	measure 'mes pasado' =
+			
+			CALCULATE([total compras],DATEADD(Calendario[Date],-1,MONTH))
+		formatString: 0
+		lineageTag: c7093985-8582-4565-8c51-421097433ed6
+
+	/// Medida pendiente de definir: actualmente no tiene expresión DAX asignada. Debe completarse (por ejemplo, SUM del monto de compra).
+	measure 'Monto compra' = ```
+			
+			
+			```
+		formatString: 0
+		isHidden
+		lineageTag: 144702db-1ec9-40c6-a553-1c0e3adaf6c5
+
+	/// Calcula el total de compras del mes anterior utilizando la función PREVIOUSMONTH sobre la tabla Calendario.
+	measure 'Compras mes anterior PreviusMonth' = ```
+			
+			CALCULATE(
+			    [total compras],
+			    PREVIOUSMONTH('Calendario'[Date])
+			)
+			
+			```
+		formatString: 0
+		lineageTag: eac6f8d7-fdd4-423e-a9ca-560be18dceeb
+
+	/// Genera el ranking de clientes según su total de compras, en orden descendente, dentro del contexto de filtros seleccionado (ALLSELECTED).
+	measure Ranking_Clientes_Compras = ```
+			
+			RANKX(
+			    ALLSELECTED(Clientes[NOMBRE]),
+			    [total compras],
+			    ,
+			    DESC,
+			    SKIP
+			)
+			
+			
+			```
+		formatString: 0
+		lineageTag: 63106e8e-ff3c-4ef0-a8af-38676cb87742
+
+	/// Cuenta el número total de filas (transacciones) en la tabla Compras.
+	measure 'total compras' =
+			
+			COUNTROWS(Compras)
+		formatString: 0
+		lineageTag: 6a880ab1-baac-4c60-9f00-725d79c7a235
+
+	/// Cuenta el número de clientes distintos (ID_CLIENTE) que aparecen en la tabla Compras.
+	measure 'total de clientes' = DISTINCTCOUNT(Compras[ID_CLIENTE])
+		formatString: 0
+		lineageTag: 46c94abd-dac2-4118-85d3-22c8940144dc
+
+	/// Cuenta el número de productos distintos (SKU) que aparecen en la tabla Compras.
+	measure 'total productos' =
+			
+			DISTINCTCOUNT(Compras[SKU])
+		formatString: 0
+		lineageTag: deeec226-6e06-4251-8b73-d71c3cdf8ff6
+
+	column 'Calculation group column'
+		dataType: string
+		lineageTag: 592c8b30-cfd7-4e27-bdd7-aeb9a9da615a
+		summarizeBy: none
+		sourceColumn: Name
+		sortByColumn: Ordinal
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ordinal
+		dataType: int64
+		formatString: 0
+		lineageTag: 2b5b1120-a0b9-45b4-b4ba-efa985e805a0
+		summarizeBy: sum
+		sourceColumn: Ordinal
+
+		annotation SummarizationSetBy = Automatic
+

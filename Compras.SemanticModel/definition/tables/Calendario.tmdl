@@ -1,0 +1,58 @@
+/// Tabla de calendario/fechas utilizada para cálculos de inteligencia de tiempo (año, mes, semana) en las medidas DAX.
+table Calendario
+	lineageTag: a626a30e-5800-41b2-a9e3-f2c42206daef
+
+	column Date
+		formatString: Short Date
+		lineageTag: b33bee16-ad80-4100-b56c-87a088b8fcd7
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		variation Variation
+			isDefault
+			relationship: f8da1131-b5f7-45de-a712-3c375b8c6249
+			defaultHierarchy: LocalDateTable_588fcc26-1eff-46e3-bb5c-77339e82a397.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Año =
+			
+			YEAR(Calendario[Date])
+		formatString: 0
+		lineageTag: 3a6dd019-e7f1-4680-a73b-316cf586cf81
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column mes = FORMAT(Calendario[Date],"mmmm")
+		lineageTag: ae174d62-ebac-48be-bf4e-135047b20cba
+		summarizeBy: none
+		sortByColumn: 'mes numero'
+
+		annotation SummarizationSetBy = Automatic
+
+	column semana =
+			
+			WEEKNUM(Calendario[Date])
+		formatString: 0
+		lineageTag: e9709f6d-63d6-4751-8126-ea735291f811
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'mes numero' = MONTH(Calendario[Date])
+		formatString: 0
+		lineageTag: 7f888e25-f0ad-4781-b3ba-49918959e896
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Calendario = calculated
+		mode: import
+		source = CALENDAR(MIN(Compras[FECHA_COMPRA]),MAX(Compras[FECHA_COMPRA]))
+
+	annotation PBI_Id = 93b1874eae194199aa5b90ebd1e418dc
+

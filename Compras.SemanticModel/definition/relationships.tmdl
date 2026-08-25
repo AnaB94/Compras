@@ -1,0 +1,36 @@
+relationship 37637cab-b8c3-4f3e-a5d0-935af4bf6df2
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Clientes.ULTIMA_FECHA_COMPRA
+	toColumn: LocalDateTable_148fecf2-896b-4b9e-b3a5-c36a2fdb473d.Date
+
+relationship 5acadce8-505b-4e96-9e44-1acc44df36a3
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Clientes.FECHA_ALTA
+	toColumn: LocalDateTable_3c393639-2635-46a7-9f6d-e8ecd6d00a2e.Date
+
+relationship 77c82507-82c1-49e7-835d-c3698bbcdf0a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Clientes.FECHA_BAJA
+	toColumn: LocalDateTable_08492c74-dd79-43df-b8b4-2fe6b7fc0dd5.Date
+
+relationship AutoDetected_a9fd9b2d-f06f-487c-b426-6968e9545f43
+	fromColumn: Compras.ID_CLIENTE
+	toColumn: Clientes.ID_CLIENTE
+
+relationship AutoDetected_5fbcbc22-a1b2-4745-a8cb-cf97bc4a5662
+	fromColumn: Compras.CEDIS
+	toColumn: Cedis.ID_CEDIS
+
+relationship f8da1131-b5f7-45de-a712-3c375b8c6249
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Calendario.Date
+	toColumn: LocalDateTable_588fcc26-1eff-46e3-bb5c-77339e82a397.Date
+
+relationship 3ffa6702-a7e0-c3be-715f-e554364cb6ab
+	fromColumn: Compras.FECHA_COMPRA
+	toColumn: Calendario.Date
+
+relationship AutoDetected_27a0d250-da14-4d7a-a630-6d6019b8b829
+	fromColumn: Compras.SKU
+	toColumn: Inventario.SKU
+

@@ -1,0 +1,104 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "f725406c6cb27e045a0c",
+  "position": {
+    "x": 841.492558774894,
+    "y": 261.72406355597093,
+    "z": 7000,
+    "height": 212.0296211086347,
+    "width": 438.96757495147023,
+    "tabOrder": 7000
+  },
+  "visual": {
+    "visualType": "clusteredColumnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Cedis"
+                    }
+                  },
+                  "Property": "REGION"
+                }
+              },
+              "queryRef": "Cedis.REGION",
+              "nativeQueryRef": "REGION",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Cedis"
+                    }
+                  },
+                  "Property": "ZONA"
+                }
+              },
+              "queryRef": "Cedis.ZONA",
+              "nativeQueryRef": "ZONA",
+              "active": false
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calculation group"
+                    }
+                  },
+                  "Property": "total de clientes"
+                }
+              },
+              "queryRef": "Compras.total de clientes",
+              "nativeQueryRef": "total de clientes"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Calculation group"
+                  }
+                },
+                "Property": "total de clientes"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "labels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

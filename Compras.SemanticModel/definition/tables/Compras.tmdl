@@ -1,0 +1,126 @@
+/// Tabla de hechos con el detalle transaccional de cada compra: cliente, producto (SKU), CEDIS, fecha de compra y número de factura.
+table Compras
+	lineageTag: 28a51f74-32cc-4eca-a082-d067daebd4bf
+
+	measure CALCULA = Calculate( [TOTAL COMPRAS], Compras[ID_CLIENTE]=110)
+		formatString: 0
+		lineageTag: aee5a044-b674-4e04-bddf-cbc27a27ce46
+
+	column ID_COMPRA
+		dataType: double
+		lineageTag: bf5f381b-1977-49d4-b369-55547ce9a01e
+		summarizeBy: sum
+		sourceColumn: ID_COMPRA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ID_CLIENTE
+		dataType: double
+		lineageTag: 8f3447b6-a531-4fdc-8bff-24ff9ea80b4b
+		summarizeBy: none
+		sourceColumn: ID_CLIENTE
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column SKU
+		dataType: string
+		lineageTag: c1a94240-8407-403f-80c1-ecf90a55bb50
+		summarizeBy: none
+		sourceColumn: SKU
+
+		annotation SummarizationSetBy = Automatic
+
+	column FECHA_COMPRA
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: d8988a62-a302-4f33-aabe-4c6e70a8736c
+		summarizeBy: none
+		sourceColumn: FECHA_COMPRA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_PRODUCTO
+		dataType: double
+		lineageTag: 0242930f-7dbd-4eeb-a544-0d6f3de85098
+		summarizeBy: sum
+		sourceColumn: ID_PRODUCTO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column NUMERO_FACTURA
+		dataType: string
+		lineageTag: d06f3472-56ce-43f5-82fe-bfd8dd4b4921
+		summarizeBy: none
+		sourceColumn: NUMERO_FACTURA
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPO_COMPRA
+		dataType: string
+		lineageTag: 63f0a1d1-413c-4d87-9b43-1ae60deff425
+		summarizeBy: none
+		sourceColumn: TIPO_COMPRA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CEDIS
+		dataType: string
+		lineageTag: deff9393-451f-4a7d-ad00-b7a1cf727993
+		summarizeBy: none
+		sourceColumn: CEDIS
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Categoria sku' =
+			
+			LOOKUPVALUE(Inventario[Categoría],Inventario[SKU],Compras[SKU])
+		lineageTag: 3c6dcf04-7f56-41ba-9d55-0c3ffbbbadab
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'area sku' =
+			
+			LOOKUPVALUE(Inventario[Área],Inventario[SKU],Compras[SKU])
+		lineageTag: 089f4630-3983-4928-802b-fac9978501bb
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'EJEMPLO LOOK' =
+			
+			LOOKUPVALUE(Cedis[ESTATUS],Cedis[ID_CEDIS],Compras[CEDIS])
+		lineageTag: 22d8036b-13fc-42d6-8886-b67e50958337
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy 'area sku Hierarchy'
+		lineageTag: eea49ec7-d28d-4c4c-a86f-f74c92e71373
+
+		level 'area sku'
+			lineageTag: b14c94f9-3755-46c6-b2a4-fd2e48a075fd
+			column: 'area sku'
+
+		level 'Categoria sku'
+			lineageTag: d3b3c024-8597-49ef-9623-4004c4cbec9a
+			column: 'Categoria sku'
+
+	partition Compras = m
+		mode: import
+		source =
+				let
+				    Source = Oracle.Database("localhost:1521/XEPDB1", [HierarchicalNavigation=true, Query="SELECT g.*,c.cedis FROM BI_PRIMERO.COMPRAS_GENERALES g#(lf)left join BI_PRIMERO.clientes c on c.id_cliente=g.id_cliente"])
+				in
+				    Source
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
